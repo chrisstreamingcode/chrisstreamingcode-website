@@ -28,7 +28,7 @@ export default class SocialPage extends React.PureComponent {
                         Connect
                     </SocialPanel>
                     <SocialPanel
-                        url="https://github.com/samanime"
+                        url="https://github.com/chrisstreamingcode"
                         title="GitHub"
                         imageSource="/public/images/github-white.png"
                         activeImageSource="/public/images/github-dark.png"
@@ -36,7 +36,7 @@ export default class SocialPage extends React.PureComponent {
                         Checkout Code
                     </SocialPanel>
                     <SocialPanel
-                      url="https://discord.gg/sXWuKw"
+                      url="https://discord.gg/A2h4CsWE"
                       title="Discord"
                       imageSource="/public/images/discord-white.svg"
                       activeImageSource="/public/images/discord-color.svg"
@@ -50,14 +50,6 @@ export default class SocialPage extends React.PureComponent {
                       activeImageSource="/public/images/youtube-red.png"
                     >
                         View Video Archive
-                    </SocialPanel>
-                    <SocialPanel
-                        url="https://www.instagram.com/chrisstreamingcode"
-                        title="Instagram"
-                        imageSource="/public/images/instagram-white.png"
-                        activeImageSource="/public/images/instagram-color.png"
-                    >
-                        Follow
                     </SocialPanel>
                 </div>
             </div>
