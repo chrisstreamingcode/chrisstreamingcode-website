@@ -31,10 +31,9 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongodb": "^3.3.2",
     "source-map-support": "^0.5.13"
   },
   "engines": {
-    "node": "12.7.0"
+    "node": "18.7.0"
   }
 }
