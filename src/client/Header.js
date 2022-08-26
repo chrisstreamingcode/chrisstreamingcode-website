@@ -7,7 +7,7 @@ export default class Header extends React.PureComponent {
         return <header className="Header">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <NavLink className="navbar-brand" to="/">
-                    <img src="/public/images/logo.png" width="80" height="71" alt="Chris Streaming Code" />
+                    <img src="/public/images/logo.png" width="98" height="71" alt="Chris Streaming Code" />
                 </NavLink>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
