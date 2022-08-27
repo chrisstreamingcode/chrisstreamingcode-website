@@ -1,8 +1,13 @@
 /* global React */
 
 import ProjectCard from "./ProjectCard";
+import getTitle from "../getTitle";
 
 export default class ProjectsPage extends React.PureComponent {
+    componentDidMount() {
+        document.title = getTitle('Projects');
+    }
+
     render() {
         return <ul className="ProjectsPage">
             <li>

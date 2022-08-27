@@ -1,7 +1,12 @@
 /* global React */
 import SocialPanel from './SocialPanel';
+import getTitle from "../getTitle";
 
 export default class SocialPage extends React.PureComponent {
+    componentDidMount() {
+        document.title = getTitle('Social');
+    }
+
     render() {
         return <div className="SocialPage">
             <div className="row">

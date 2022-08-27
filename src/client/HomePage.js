@@ -1,8 +1,14 @@
 /* global React, ReactRouterDOM */
 
+import getTitle from "./getTitle";
+
 const { NavLink } = ReactRouterDOM;
 
 export default class HomePage extends React.PureComponent {
+    componentDidMount() {
+        document.title = getTitle('Home');
+    }
+
     render() {
         return <div className="HomePage">
             <h1>Chris Streaming Code</h1>
