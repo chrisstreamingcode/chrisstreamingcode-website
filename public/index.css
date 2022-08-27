@@ -9,6 +9,14 @@ body {
     color: var(--white);
 }
 
+.App > div {
+    padding: 16px 24px;
+}
+
+.HomePage h1 {
+    margin-bottom: 1em;
+}
+
 .HomePage p {
     max-width: 600px;
 }
