@@ -55,3 +55,77 @@
     font-size: 2em;
     text-align: center;
 }
+
+.ProjectsPage {
+    list-style: none;
+    display: grid;
+    overflow: hidden;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: repeat(auto-fill, 304px);
+    justify-content: center;
+}
+
+.ProjectCard {
+    background: #333;
+    color: #FFF;
+    border: 2px solid #666;
+}
+
+.ProjectCard img {
+    border-bottom: 1px solid #FFF;
+}
+
+.ProjectCard a {
+    color: #92D3FF;
+    border-bottom: 1px solid #FFF;
+    display: block;
+    line-height: 2.5;
+    padding: 0 16px 0 44px;
+}
+
+.ProjectCard .icon {
+    position: relative;
+}
+
+.ProjectCard .icon:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 28px;
+    height: 28px;
+}
+
+.ProjectCard .github:before {
+    background: url("/public/images/github-icon.png") no-repeat center;
+    background-size: 100%;
+}
+
+.ProjectCard .youtube:before {
+    background: url("/public/images/youtube-icon.png") no-repeat center;
+    background-size: 100%;
+}
+
+.ProjectCard .twitch:before {
+    background: url("/public/images/twitch-icon.svg") no-repeat center;
+    background-size: 100%;
+}
+
+.ProjectCard .body {
+    padding: 16px;
+}
+
+.ProjectCard img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.ProjectsPage .title {
+    font-size: 1.6em;
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    line-height: 2.5;
+}

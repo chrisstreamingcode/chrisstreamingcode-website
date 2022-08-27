@@ -51,6 +51,14 @@ export default class SocialPage extends React.PureComponent {
                     >
                         View Video Archive
                     </SocialPanel>
+                    <SocialPanel
+                        url="https://www.reddit.com/user/ChrisStreamingCode"
+                        title="Reddit"
+                        imageSource="/public/images/reddit-white.png"
+                        activeImageSource="/public/images/reddit-color.png"
+                    >
+                        Chat and Follow
+                    </SocialPanel>
                 </div>
             </div>
         </div>;
