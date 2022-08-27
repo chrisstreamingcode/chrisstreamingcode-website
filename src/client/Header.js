@@ -5,7 +5,7 @@ const { NavLink } = ReactRouterDOM;
 export default class Header extends React.PureComponent {
     render() {
         return <header className="Header">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <NavLink className="navbar-brand" to="/">
                     <img src="/public/images/logo.png" width="98" height="71" alt="Chris Streaming Code" />
                 </NavLink>

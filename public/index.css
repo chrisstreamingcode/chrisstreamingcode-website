@@ -1,9 +1,21 @@
+body {
+    --primary-color: #0080FF;
+    --light-color: #92D3FF;
+    --white: #F0F0F0;
+    --dark-gray: #333;
+    --medium-gray: #666;
+
+    background: #505050;
+    color: var(--white);
+}
+
 .HomePage p {
     max-width: 600px;
 }
 
 .Header {
     margin: 0 -15px 50px;
+    color: var(--white);
 }
 
 .SocialPage {
@@ -14,17 +26,17 @@
     width: 180px;
     box-sizing: content-box;
     display: inline-block;
-    border: 2px #666 solid;
+    border: 2px var(--medium-gray) solid;
     text-align: center;
-    background-color: #333;
-    color: #FFF;
+    background-color: var(--dark-gray);
+    color: var(--white);
     margin: 0 5px 10px;
     padding: 0 0 15px;
 }
 
 .SocialPanel:hover {
     text-decoration: none;
-    color: #FFF;
+    color: var(--white);
 }
 
 .SocialPanel .image > div {
@@ -48,7 +60,7 @@
 }
 
 .SocialPanel .title {
-    border: solid #666;
+    border: solid var(--medium-gray);
     border-width: 2px 0 0;
     font-size: 1.2em;
     font-weight: bold;
@@ -72,18 +84,18 @@
 }
 
 .ProjectCard {
-    background: #333;
-    color: #FFF;
-    border: 2px solid #666;
+    background: var(--dark-gray);
+    color: var(--white);
+    border: 2px solid var(--medium-gray);
 }
 
 .ProjectCard img {
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid var(--white);
 }
 
 .ProjectCard a {
-    color: #92D3FF;
-    border-bottom: 1px solid #FFF;
+    color: var(--light-color);
+    border-bottom: 1px solid var(--white);
     display: block;
     line-height: 2.5;
     padding: 0 16px 0 44px;
@@ -130,6 +142,6 @@
 .ProjectsPage .title {
     font-size: 1.6em;
     text-align: center;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid var(--white);
     line-height: 2.5;
 }
