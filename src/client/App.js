@@ -4,7 +4,6 @@ import HomePage from './HomePage';
 import StreamsPage from './StreamsPage';
 import VideosPage from './VideosPage';
 import ProjectsPage from './ProjectsPage';
-import ContactPage from './ContactPage';
 import Header from './Header';
 
 const { BrowserRouter, Route, Switch } = ReactRouterDOM;
@@ -20,7 +19,6 @@ export default class App extends React.Component {
                     <Route path="/streams" component={ StreamsPage } />
                     <Route path="/abridged-videos" component={ VideosPage } />
                     <Route path="/projects" component={ ProjectsPage } />
-                    <Route path="/contact" component={ ContactPage } />
                 </Switch>
             </BrowserRouter>
         </div>;

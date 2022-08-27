@@ -1,3 +1,7 @@
+.HomePage p {
+    max-width: 600px;
+}
+
 .Header {
     margin: 0 -15px 50px;
 }

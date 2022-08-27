@@ -26,9 +26,6 @@ export default class Header extends React.PureComponent {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/projects">Projects</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
-                        </li>
                     </ul>
                 </div>
             </nav>

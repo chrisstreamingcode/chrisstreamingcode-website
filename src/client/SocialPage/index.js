@@ -6,7 +6,8 @@ export default class SocialPage extends React.PureComponent {
         return <div className="SocialPage">
             <div className="row">
                 <div className="col">
-                    <h1>Chris Streaming Code on:</h1>
+                    <img src="/public/images/logo-large.png" width="800" height="589" />
+                    <h1>on</h1>
                 </div>
             </div>
             <div className="row">
