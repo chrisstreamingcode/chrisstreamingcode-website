@@ -32,6 +32,17 @@ export default class ProjectsPage extends React.PureComponent {
                     Learn to build your own clone of the class game Pong.
                 </ProjectCard>
             </li>
+            <li>
+                <ProjectCard
+                    imageSource="public/images/projects/space-shooter.png"
+                    title="Pong"
+                    githubUrl="https://github.com/chrisstreamingcode/space-shooter"
+                    twitchUrl="https://www.twitch.tv/videos/1574590832"
+                    youtubeUrl={undefined}
+                >
+                    Learn to build your own space shooter.
+                </ProjectCard>
+            </li>
         </ul>
     }
 }
