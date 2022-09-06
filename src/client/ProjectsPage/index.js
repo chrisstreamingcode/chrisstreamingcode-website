@@ -35,7 +35,7 @@ export default class ProjectsPage extends React.PureComponent {
             <li>
                 <ProjectCard
                     imageSource="public/images/projects/space-shooter.png"
-                    title="Pong"
+                    title="Space Shooter"
                     githubUrl="https://github.com/chrisstreamingcode/space-shooter"
                     twitchUrl="https://www.twitch.tv/videos/1574590832"
                     youtubeUrl={undefined}
