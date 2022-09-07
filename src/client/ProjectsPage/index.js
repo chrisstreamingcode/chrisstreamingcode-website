@@ -35,12 +35,23 @@ export default class ProjectsPage extends React.PureComponent {
             <li>
                 <ProjectCard
                     imageSource="public/images/projects/space-shooter.png"
-                    title="Space Shooter"
+                    title="JavaScript Space Shooter"
                     githubUrl="https://github.com/chrisstreamingcode/space-shooter"
                     twitchUrl="https://www.twitch.tv/videos/1574590832"
                     youtubeUrl={undefined}
                 >
-                    Learn to build your own space shooter.
+                    Learn to build your own space shooter in JavaScript.
+                </ProjectCard>
+            </li>
+            <li>
+                <ProjectCard
+                    imageSource="public/images/projects/godot-space-shooter.png"
+                    title="Godot Space Shooter"
+                    githubUrl="https://github.com/chrisstreamingcode/godot-space-shooter"
+                    twitchUrl="https://www.twitch.tv/videos/1583890429"
+                    youtubeUrl={undefined}
+                >
+                    Learn to build your own space shooter in Godot.
                 </ProjectCard>
             </li>
         </ul>
