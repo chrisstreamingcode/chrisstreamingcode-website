@@ -42,7 +42,7 @@ export default class SocialPage extends React.PureComponent {
                         Checkout Code
                     </SocialPanel>
                     <SocialPanel
-                      url="https://discord.gg/A2h4CsWE"
+                      url="https://discord.gg/cVhnRjdx3Y"
                       title="Discord"
                       imageSource="/public/images/discord-white.svg"
                       activeImageSource="/public/images/discord-color.svg"
